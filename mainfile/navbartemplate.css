@@ -1,0 +1,98 @@
+/* ok ignore everything I said in class just use position:sticky; and it just sticks to the top*/
+.navbar
+{
+	width: 100%;
+	height: 7%;
+	background-color: rgb(50,50,50);
+	position:sticky;
+	top:0;
+	z-index:100;
+	margin: auto;
+}
+/*div container the table sits in */
+#nvbar1
+{
+	margin: auto;
+	height: 100%;
+	width: 75%;
+	text-align: center;
+	background-color: rgb(50,50,50);
+}
+/* formatting for table the buttons sit in */
+#navtable
+{
+	margin: auto;
+	text-align:center;
+}
+/* image format for logo */
+#logo img
+{
+	float:left;
+	width: 10%;
+	height:100%;
+	margin-left: 5%;
+}
+/* button format */
+#navtable button[type=button]
+{
+	width:100%;
+	height:100%;
+	font-size: 16px;
+	background-color: grey;
+	border-width: 0px;
+	text-align:center;
+	padding: 5px 10px;
+	color:white;
+}
+	
+/* to make content sit BELOW the nav bar, you need to use
+position: relative;  <-- this will make the <div> able to be positioned freely
+top: 7%;  <-- this means the <div> will sit 7% of the screen from the top*/
+.header 
+{
+	color:black;
+	background-color:grey;
+	font-size:36px;
+}
+#container
+{
+	width:100%;
+	height:150%;
+	position:relative;
+}
+
+/* these column positions are from chapter 5, slide 53 powerpoint */
+.content
+{
+	width: 80%;
+	height: 100%;
+	background-color: rgb(200,200,200);
+	position:relative;
+	margin-right: 10%;
+	margin-left: 10%;
+	z-index:1;
+}
+.content p
+{
+	padding: 0px 15px;
+}
+.leftcolumn
+{
+	width: 10%;
+	height: 100%;
+	background-color: rgb(50,50,50);
+	position:absolute;
+	left:0;
+	top:0;
+	color:white;
+}
+.rightcolumn
+{
+	width: 10%;
+	height: 100%;
+	background-color: rgb(50,50,50);
+	position:absolute;
+	right:0;
+	top:0;
+	color:white;
+}
