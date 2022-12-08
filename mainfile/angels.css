@@ -1,0 +1,212 @@
+/* ok ignore everything I said in class just use position:sticky; and it just sticks to the top*/
+.navbar
+{
+	width: 100%;
+	height: 7%;
+	background-color: rgb(1, 33, 105);
+
+	position:sticky;
+	top:0;
+	z-index:100;
+	margin: auto;
+}
+/*div container the table sits in */
+#nvbar1
+{
+	margin: auto;
+	height: 100%;
+	width: 75%;
+	text-align: center;
+	background-color: rgb(1, 33, 105);
+	
+}
+/* formatting for table the buttons sit in */
+#navtable
+{
+	margin: auto;
+	text-align:center;
+}
+/* image format for logo */
+#logo img
+{
+	float: left;
+	width: 10%;
+	height:100%;
+	margin-left: 5%;
+}
+/* button format */
+#navtable button[type=button]
+{
+	width:100%;
+	height:100%;
+	font-size: 16px;
+	background-color: grey;
+	border-width: 0px;
+	text-align:center;
+	padding: 5px 10px;
+	color:white;
+}
+
+.angelheader 
+{
+	color:white;
+	background-color:navy;
+	font-size:36px;
+	text-align: center;
+	position: relative;
+	border-color: rgb(200, 16, 46);
+	border-style: solid;
+	border-width: 5px;
+	background-image: url('londonskyline.jpg');
+	
+}
+.angelcontactheader 
+{
+	color:white;
+	background-color:navy;
+	font-size:36px;
+	text-align: center;
+	position: relative;
+	border-color: rgb(200, 16, 46);
+	border-style: solid;
+	border-width: 5px;
+	background-image: url(londonimg.jfif);
+	
+}
+#container
+{
+	size: 100%;
+	width:100%;
+	height:70%;
+	position:relative;
+	margin: 0 auto;
+	background-color: whitesmoke;
+}
+
+.content
+{
+	width: 80%;
+	height: 80%;
+	background-color: rgb(200,200,200);
+	position:relative;
+	margin:0 auto;
+	z-index:1;
+	font-size: 1.50em;
+	color: white;
+	border: 2px rgb(1, 33, 105);
+	border-radius: 20px;
+	box-shadow: 10px 5px 5px black
+	
+}
+.contactcontent
+{
+	width: 80%;
+	height: 150%;
+	background-color: rgb(200,200,200);
+	position: relative;
+	margin:0 auto;
+	z-index:1;
+	font-size: 1.50em;
+	color: white;
+	border: 2px rgb(1, 33, 105);
+	border-radius: 20px;
+	box-shadow: 10px 5px 5px black
+
+}
+.content p
+{
+	padding: 0px 50px;
+}
+
+.leftcolumn
+{
+	width: 10%;
+	height: 170%;
+	background-color: rgb(200, 16, 46);
+	position:absolute;
+	left:0;
+	top:0;
+	color:white;
+	border-style: solid;
+	border-width: 5px;
+	border-color: rgb(1, 33, 105);
+	margin-top: 300px;
+
+}
+.contactleftcolumn
+{
+	width: 10%;
+	height: 100%;
+	background-color: rgb(200, 16, 46);
+	position:absolute;
+	left:0;
+	top:0;
+	color:white;
+	border-style: solid;
+	border-width: 5px;
+	border-color: rgb(1, 33, 105);
+	margin-top: 325px;
+	
+
+}
+.rightcolumn
+{
+	width: 10%;
+	height: 170%;
+	background-color: rgb(200, 16, 46);
+	position:absolute;
+	right: 0;
+	top:0;
+	color:white;
+	border-style: solid;
+	border-width: 5px;
+	border-color: rgb(1, 33, 105);
+	margin-top: 300px;
+}
+.contactrightcolumn
+{
+	width: 10%;
+	height: 100%;
+	background-color: rgb(200, 16, 46);
+	position:absolute;
+	right: 0;
+	top:0;
+	color:white;
+	border-style: solid;
+	border-width: 5px;
+	border-color: rgb(1, 33, 105);
+	margin-top: 325px;
+	
+}
+.angeldivh1
+{
+	text-align: center;
+	color: white;
+	border-style: solid;
+	border-width: 5px;
+	border-color: rgb(1, 33, 105);
+}
+
+.pounds img{
+	
+	width: 250px;
+	height: 100px;
+	position: relative;
+	
+}
+
+#angelspounds{
+	position: absolute;
+	margin: 0 auto;
+	width: 100%;
+	text-align: center;
+	font-size: 20px;
+}
+.missingpplpdf{
+	width: 800px;
+	margin-left: auto ;
+	margin-right: auto ;
+	position:relative;
+	justify-content: center;
+	right: 120px;
+}

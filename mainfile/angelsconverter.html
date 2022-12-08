@@ -1,0 +1,23 @@
+<html>
+<head>
+    <link rel="stylesheet" href="converter.css">
+<head>
+<body id="angelsconverterbody">
+    <div class="angelsconverterwrapper">
+        <h1>Exchange USD to GBP</h1>
+    <input type="number" id="angelUSD">
+    <br>
+    <button id="angelconvertbutton" onclick="convert();">Convert</button>
+    <br>
+    <input type="text" id="angelGBP">
+    </div>
+    
+</body>
+<script>
+    function convert()
+    {
+        var USD = document.getElementById('angelUSD').value;
+        document.getElementById('angelGBP').value = "£" + USD * 0.85;
+    }
+</script>
+</html>

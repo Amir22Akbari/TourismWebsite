@@ -1,0 +1,278 @@
+/*body*/
+#alexpage
+{
+	
+}
+.aleximagecontainer
+{
+	position:absolute;
+	top:22%;
+	height:165%;
+	width:100%;
+}
+.aleximagecontainer img
+{
+	width: 100%;
+	height: 100%;
+	opacity: 0.5;
+}
+/* TEST ELEMENTS */
+.alexheadertesting
+{
+	height:15%;
+	text-align:center;
+	font-size:32px;	
+	z-index:99;
+	position:relative;
+	top:0;
+}
+.alexheadingbar
+{
+	height:100%;
+	width:100%;
+	text-align:center;
+	font-size:32px;	
+	z-index:98;
+	position:absolute;
+	top:0;
+}
+.alextextboxtitle
+{
+	position:relative;
+	opacity:1;
+	text-align:center;
+	top:0;
+	z-index:99;
+
+}
+.alexheadingbar img
+{
+	width: 100%;
+	height: 100%;
+	z-index:1;
+	opacity:0.5;
+}
+/* NAV BAR*/
+.alexnavbar
+{
+	width: 100%;
+	height: 7%;
+	background-color: rgb(150,50,50);
+	position:sticky;
+    top:0;
+    z-index:100;
+	margin: auto;
+}
+#alexnvbar1
+{
+	margin: auto;
+	height: 100%;
+	width: 75%;
+	text-align: center;
+	background-color: rgb(150,50,50);
+}
+#alexnavtable
+{
+	margin: auto;
+	text-align:center;
+}
+#alexlogo img
+{
+	float:left;
+	width: 10%;
+	height:100%;
+	margin-left: 5%;
+}
+#alexnavtable button[type=button]
+	{
+		width:100%;
+		height:100%;
+		font-size: 16px;
+		background-color: rgb(200,100,100);
+		border-width: 0px;
+		text-align:center;
+		padding: 5px 10px;
+		color:white;
+	}
+#alexnavtable button[type=button]:hover
+	{
+		color:orange;
+	}
+/* SIDE BAR */
+.alexsidebar
+{
+	float: left;
+	width: 15%;
+	height: 93%;
+	/*background-color: rgb(200,200,200); */
+	position:sticky;
+	top:7%;
+    z-index:99;
+}
+#alexsidenavlist 
+{
+	text-align: center;
+	margin: auto;
+	width:100%;
+	padding: 0px 5px;
+}
+#alexsidenavlist button[type=button]
+	{
+		width:100%;
+		height:100%;
+		font-size: 16px;
+		background-color: rgb(200,100,100);
+		border-width: 0px;
+		text-align:center;
+		padding: 5px 5px;
+		color:white;
+	}
+#alexsidenavlist button[type=button]:hover
+{
+	color:orange;
+}
+#alexsidebarheader
+{
+	margin: auto;
+	width: 90%;
+	text-align: center;
+	background-color: rgb(150,50,50);
+	color:rgb(240,240,240);
+}
+#alexsidebarnav
+{
+	margin: auto;
+	width: 90%;
+	height: 40%;
+	text-align: center;
+	background-color: rgb(150,50,50);
+	color:rgb(240,240,240);
+	font-size:15px;
+}
+#alexsidebarnav2
+{
+	margin: auto;
+	width: 90%;
+	height: 50%;
+	text-align: left;
+	background-color: rgb(150,50,50);
+	color:rgb(240,240,240);
+}
+#alexsidebarnav2 p
+{
+	padding: 10px;
+}	
+#alexsidebarnav h3
+{
+	padding: 5px 10px;
+}	
+/* CONTENT AND DISPLAYS */
+.alexcontent
+{
+	float: right;
+	width: 85%;
+	height: 120%;
+	/*background-color: rgb(200,200,200);*/
+	position:relative;
+	top: 10%;
+}
+#alexdisplay1, 
+#alexdisplay2, 
+#alexdisplay3, 
+#alexdisplay4, 
+#alexdisplay5 {
+	margin: auto;
+	width: 95%;
+	height: 100%;
+	position: absolute;
+	top: 1%;
+	left: 3%;
+	background-color:rgb(200,200,200);
+	text-indent: 15px;
+	padding:10px;
+}
+#alexdisplay1 p, 
+#alexdisplay2 p, 
+#alexdisplay3 p, 
+#alexdisplay4 p, 
+#alexdisplay5 p {
+	position: relative;
+	top: 8px;
+	left: 16px;
+}
+#alexdisplay1
+{
+	z-index:50;
+}
+#alexdisplay1 img,
+#alexdisplay2 img,
+#alexdisplay3 img,
+#alexdisplay4 img,
+#alexdisplay5 img
+{
+	position:relative;
+	left:5%;
+}
+#alexdisplay2
+{
+	z-index:49;
+}
+#alexdisplay3
+{
+	z-index:48;
+}
+#alexdisplay4
+{
+	z-index:47;
+}
+#alexdisplay5
+{
+	z-index:46;
+}
+/* PAGE TITLE */
+.alexpagetitle
+{
+	float: right;
+	width: 85%;
+	height: 10%;
+	/*background-color: rgb(200,200,200);*/
+	text-align:left;
+	padding: 0px 0px;
+	font-size:24px;
+	position:relative;
+	top: 0%;
+}
+#alexpagetitlespace
+{
+	width: 90%;
+	height: 100%;
+	margin: auto;
+	text-align: left;
+	font-size:24px;
+	background-color: rgb(50,50,150);
+	text-indent: 5%;
+	color:white;
+}
+
+.alexfootertitle
+{
+	float: left;
+	width: 100%;
+	height: 10%;
+	/*background-color: rgb(200,200,200);*/
+	text-align:left;
+	padding: 0px 0px;
+	font-size:24px;
+	position:relative;
+	top: 10%;
+}
+#alexfootertitlespace
+{
+	width: 90%;
+	height: 100%;
+	margin: auto;
+	text-align: center;
+	font-size:24px;
+	background-color: rgb(50,50,150);
+	color:white;
+}
