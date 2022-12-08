@@ -1,0 +1,46 @@
+<!--Currency COnverter for About London Page-->
+<!--<html>
+    <head>
+        <link rel="stylesheet" href="MainTest.css">
+    </head>
+    <body id="angelcurrencybody">
+        <div class="wrapper">
+            <h1>Currency Exchange</h1>
+            <div class="currency_exchange">
+            <div class="number_section">
+                <select name="currency" class="currency"></select>
+                <input type="number" id="number_box">
+            </div>
+            <div class="answer_section">
+                <select name="currency" class="currency"></select>
+                <input type="text" id="anwser_box">
+            </div>
+            </div>
+            <button id="convert_currency">Convert</button>
+        </div>
+        <script src="MainTest.js"></script>
+    </body>
+</html>-->
+<html>
+<head>
+    <link rel="stylesheet" href="MainTest.css">
+<head>
+<body id="angelsconverterbody">
+    <div class="angelsconverterwrapper">
+        <h1>Exchange USD to GBP</h1>
+    <input type="number" id="angelUSD">
+    <br>
+    <button id="angelconvertbutton" onclick="convert();">Convert</button>
+    <br>
+    <input type="text" id="angelGBP">
+    </div>
+    
+</body>
+<script>
+    function convert()
+    {
+        var USD = document.getElementById('angelUSD').value;
+        document.getElementById('angelGBP').value = "\u00A3" + USD * 0.85;
+    }
+</script>
+</html>

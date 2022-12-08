@@ -1,0 +1,178 @@
+<html>
+<title> Flights for London, England </title>
+<head>
+<link href="MainTest.css" rel="stylesheet">
+<script src="MainTest.js"> </script>
+</style>
+</head>
+
+<body id="jeremybody">
+
+<div id="jeremyheader">
+<h1> Flights for London, England </h1>
+</div>
+
+<div class="navbar">
+<!-- logo container -->
+	<div id="logo">
+		<img src="images/eflag.webp">
+	</div>
+<!-- button container -->
+<div id="nvbar1">
+		<table id="navtable">
+			<tr id="testrow">
+			<!-- navbarredirect(this) -->
+				<td> <a href="homepage.html"><button type="button" onclick="" id="alex1nvb">Home</button></a></td>
+				<td> <a href="stayindex.html"><button type="button" onclick="" id="alex2nvb">Stay</button></a></td>
+				<td> <a href="ptvindex.html"><button type="button" onclick="" id="alex3nvb">Places to Visit</button></a></td>
+				<td> <a href="hotels.html"><button type="button" onclick="" id="alex4nvb">Hotels</button></a></td>
+				<td> <a href="foodwebsite.html"><button type="button" onclick="" id="alex5nvb">Food</button></a></td>
+				<td> <a href="flights.html"><button type="button" onclick="" id="alex6nvb">Flights</button></a></td>
+				<td> <a href="Transportation.html"><button type="button" onclick="" id="alex7nvb">Transportation</button></a></td>
+				<td> <a href="AboutLondon.html"><button type="button" onclick="" id="alex8nvb">About</button></a></td>
+				<td> <a href="Contact.html"><button type="button" onclick="" id="alex9nvb">Contact</button></a></td>
+			</tr>
+		</table>
+	</div>
+</div>
+
+<div id="jeremysidebar">
+<h2> <ul> Direct Link </ul> </h2>
+<a href="https://www.britishairways.com/en-us/destinations/london/flights-to-london" target="_blank"> British Airways </a> <br> <br> </a>
+<a href="https://www.virginatlantic.com/us/en/destinations/uk" target="_blank"> Virgin Atlantic </a> <br> <br> </a>
+<a href="https://www.aa.com/en-us/flights-to-london" target="_blank"> American Airlines </a> <br> <br> </a>
+<a href="https://www.delta.com/us/en/flight-deals/europe-flights/flights-to-london" target="_blank"> Delta Airlines </a> <br> <br> </a>
+<a href="https://www.expedia.com/Cheap-Flights-To-London.d178279.Travel-Guide-Flights" target="_blank"> Expedia </a> <br> <br> </a>
+<a href="https://www.skyscanner.com/flights-to/lond/cheap-flights-to-london.html" target="_blank"> SkyScanner </a> <br> <br> </a>
+<a href="https://www.travelocity.com/Cheap-Flights-To-London.d178279.Travel-Guide-Flights" target="_blank"> Travelocity </a> <br> <br> </a>
+<a href="https://www.tripadvisor.com/Flights-g186338-London_England-Cheap_Discount_Airfares.html" target="_blank"> Tripadvisor </a> <br> <br> </a>
+</div>
+
+<style>
+    h1 {
+  text-align: center;
+}
+</style>
+<div id="jeremyairports">
+<table border="1" id="heathrow">
+<th colspan="3"> Heathrow Airport </th>
+<tr>
+<td> <table border="1" id="heathrowpics">  
+<td id="jeremy2pics"> <img src="images/heathrow1.jpg" width="150" height="100" onclick="jeremyzoom1()" class="enlarge"> </td>
+<td id="jeremy2pics"> <img src="images/heathrow2.jpg" width="150" height="100" onclick="jeremyzoom1()" class="enlarge"> </td>
+</tr>
+</table>
+<td id="aboutheathrow"> 
+<p id="leftindent"> Airlines Serving Heathrow: </p>
+<ul id="jeremylist">
+<li> British Airways </li>
+<li> Virgin Atlantic Airways </li> 
+<li> American Airlines </li>
+<li> Delta Airlines </li>
+</td>
+<td id="heathrowtext"> 
+London Heathrow is one of the main international airports serving Greater London. It is one of the biggest international
+airports in the whole world. It is also one of the busiest airports, based on international passenger traffic. This airport predominantly
+serves both international and domestic flights. Many tourists uses Heathrow for arrival. 
+</tr>
+</table>
+
+<table border="1" id="gatwick">
+<th colspan="3"> Gatwick Airport </th>
+<tr>
+<td> <table border="1" id="gatwickpics">  
+<td id="jeremy2pics"> <img src="images/gatwick1.jpg" width="150" height="100" onclick="jeremyzoom2()" class="enlarge"> </td>
+<td id="jeremy2pics"> <img src="images/gatwick2.jpg" width="150" height="100" onclick="jeremyzoom2()" class="enlarge"> </td>
+</tr>
+</table>
+<td id="aboutgatwick"> 
+<p id="leftindent"> Airlines Serving Gatwick: </p>
+<ul id="jeremylist">
+<li> British Airways </li>
+<li> Virgin Atlantic Airways </li> 
+<li> Delta Airlines </li>
+</td>
+<td id="gatwicktext"> 
+London Gatwick is a secondary airport serving Greater London. It is one of the biggest international
+airports in all of Europe. It is also one of the busiest airports, based on international passenger traffic. This airport predominantly
+serves domestic flights with some international flights.
+</tr>
+</table>
+
+<h3> Flight Booking Bar </h3>
+<style>
+        h3 {
+          text-align: center;
+        }
+</style>
+<div id="bookingform">
+<form id="jeremyduong">
+<fieldset id="jeremyfieldset">
+<label for="start"> Departing Date: </label>
+
+<input type="date" id="start" name="trip-start"
+       value="2022-11-22"
+       min="2022-11-12" max="2024-12-31">
+
+<label for="finish"> Returning Date: </label>
+
+<input type="date" id="finish" name="trip-finish"
+       value="2022-11-22"
+       min="2022-11-12" max="2024-12-31">
+
+Adults <select id="adults">
+        <option value=""> </option>
+        <option value="1"> 1 </option>
+        <option value="2"> 2 </option>
+        <option value="3"> 3 </option>
+        <option value="4"> 4 </option>
+        <option value="5"> 5 </option>
+        <option value="6"> 6 </option>
+        <option value="7"> 7 </option>
+        <option value="8"> 8 </option>
+        <option value="9"> 9 </option>
+        <option value="10"> 10 </option>
+          </select>
+          
+Children (Ages 2-17) <select id="children">
+    <option value=""> </option>
+    <option value="1"> 1 </option>
+    <option value="2"> 2 </option>
+    <option value="3"> 3 </option>
+    <option value="4"> 4 </option>
+    <option value="5"> 5 </option>
+    <option value="6"> 6 </option>
+    <option value="7"> 7 </option>
+    <option value="8"> 8 </option>
+    <option value="9"> 9 </option>
+    <option value="10"> 10 </option>
+        </select>
+
+<label for="leavingfrom">Leaving from:</label>
+<input type="text" id="lfrom" name="lfrom">
+
+Going To <select id="goingto">
+    <option value=""> </option>
+    <option value="1"> Heathrow (LHR) </option>
+    <option value="2"> Gatwick (GAT) </option>
+</select>
+Type of Travel <select id="typeoftravel">
+    <option value=""> </option>
+    <option value="1"> Economy Class </option>
+    <option value="2"> Premium Economy Class </option>
+    <option value="3"> Business Class </option>
+    <option value="4"> First Class </option>
+</select>
+<br>
+<button type="reset" id="jeremysearch"> Search </button>
+    
+
+</div>
+</div>
+<div id="jeremyfooter">
+    Jeremy Duong
+    </div>
+    
+
+</body>
+</html>

@@ -1,0 +1,160 @@
+<html>
+<title> Places to stay in Lodon </title>
+<head>
+<link href="MainTest.css" rel="stylesheet">
+<script src="MainTest.js"> </script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body id="spencerbody">
+<div id="spencerheader">
+<h1> Hotels in London England </h1>
+</div>
+<div class="navbar">
+<!-- logo container -->
+	<div id="logo">
+	</div>
+<!-- button container -->
+<div id="nvbar1">
+		<table id="navtable">
+			<tr id="testrow">
+			<!-- navbarredirect(this) -->
+				<td> <a href="homepage.html"><button type="button" onclick="" id="alex1nvb">Home</button></a></td>
+				<td> <a href="stayindex.html"><button type="button" onclick="" id="alex2nvb">Stay</button></a></td>
+				<td> <a href="ptvindex.html"><button type="button" onclick="" id="alex3nvb">Places to Visit</button></a></td>
+				<td> <a href="hotels.html"><button type="button" onclick="" id="alex4nvb">Hotels</button></a></td>
+				<td> <a href="foodwebsite.html"><button type="button" onclick="" id="alex5nvb">Food</button></a></td>
+				<td> <a href="flights.html"><button type="button" onclick="" id="alex6nvb">Flights</button></a></td>
+				<td> <a href="Transportation.html"><button type="button" onclick="" id="alex7nvb">Transportation</button></a></td>
+				<td> <a href="AboutLondon.html"><button type="button" onclick="" id="alex8nvb">About</button></a></td>
+				<td> <a href="Contact.html"><button type="button" onclick="" id="alex9nvb">Contact</button></a></td>
+			</tr>
+		</table>
+	</div>
+</div>
+
+<div id="spencertravelinfo">
+<form id="spencerreset">
+<fieldset id="spencerfieldset">
+Check-In <input type="date" id="checkin"> </button>
+Check-Out <input type="date" id="checkout"> </button>
+Adults <select id="adults">
+	<option value=""> </option>
+	<option value="1"> 1 </option>
+	<option value="2"> 2 </option>
+	<option value="3+"> 3+ </option>
+	  </select>
+Children <select id="children">
+	<option value=""> </option>
+	<option value="1"> 1 </option>
+	<option value="2"> 2 </option>
+	<option value="3+"> 3+ </option>
+	    </select>
+<button type="reset" id="spencersearch"> Search </button>
+</fieldset>
+</form>
+</div>
+
+
+
+
+<div id="spencersidebar">
+<h1><u> Quick Links </u></h1>
+  <a href="https://www.thelondoner.com" target="_blank" class="spencerquicklink"> The Londoner </a> <br><br></a>
+  <a href="https://www.corinthia.com/london/" target="_blank" class="spencerquicklink">Corinthia</a><br><br>
+  <a href="https://rubenshotel.com/" target="_blank" class="spencerquicklink">Rubens at the Palace</a><br><br>
+</div>
+
+<div id="spencerhotels">
+<table border="1" id="londoner">
+<th colspan="3"> The Londoner </th>
+<tr>
+<td> <table border="1" id="londonerpics">  
+<td id="spencer4pics"> <img src="images/londoner.jpg" width="150" height="100" onclick="zoom1()" class="enlarge"> </td>
+<td id="spencer4pics"> <img src="images/londoner2.jpg" width="150" height="100" onclick="zoom2()" class="enlarge"> </td>
+</tr>
+<tr>
+<td id="spencer4pics"> <img src="images/londoner3.jpg" width="150" height="100" onclick="zoom3()" class="enlarge"> </td>
+<td id="spencer4pics"> <img src="images/londoner4.jpg" width="150" height="100" onclick="zoom4()" class="enlarge"> </td>
+</tr>
+</table>
+<td id="spencerabouthotel"> 
+<p id="leftindent"> Ammenities: </p>
+<ul id="spencerlist">
+<li> Rooms/Suits </li>
+<li> 5 Restarants/Bars </li> 
+<li> Festive Parties </li>
+<li> Retreats </li>
+</td>
+<td id="spencerhoteltext"> 
+The Londoner is located in the heart of London's theatre land. It is proud to be one of the
+world's first super boutique hotels. Located on the south west corner of Leicester Square giving you great access to a beautiful market.  </td>
+</tr>
+</table>
+
+<table border="1" id="corinthia">
+<th colspan="3"> The Corinthia </th>
+<tr>
+<td> <table border="1" id="corinthiapics"> 
+<td id="spencer4pics"> <img src="images/corinthia.jpg" width="150" height="100" onclick="zoom5()" class="enlarge"> </td>
+<td id="spencer4pics"> <img src="images/corinthia2.jpg" width="150" height="100" onclick="zoom6()" class="enlarge"> </td>
+</tr>
+<tr>
+<td id="spencer4pics"> <img src="images/corinthia3.jpg" width="150" height="100" onclick="zoom7()" class="enlarge"> </td>
+<td id="spencer4pics"> <img src="images/corinthia4.jpg" width="150" height="100" onclick="zoom8()" class="enlarge"> </td>
+</tr>
+</table>
+<td id="spencerabouthotel"> 
+<p id="leftindent"> Ammenities: </p>
+<ul id="spencerlist">
+<li> Rooms/Suits/Penthouses </li>
+<li> 4 Restarants/Bars </li> 
+<li> Festive Parties </li>
+<li> Afternoon Tea Tradition </li> 
+<li> Wellness Spa </li>
+</td>
+<td id="spencerhoteltext">
+The Corinthia Hotel is known for having the largest spa called the ESPA Life at Corinthia. It is surrounded by 30
+different theatres within a 15 minute walk. If you're staying at one of the penthouses you will be greeted with the view
+of some of the most iconic landmarks including The London Eye, Nelson's Column and Westminster Abbey.
+</td>
+</tr>
+</table>
+
+
+<table border="1" id="rubens">
+<th colspan="3"> Rubens at the Palace </th>
+
+<tr>
+<td> <table border="1" id="rubenspics"> 
+<td div id="enlargee" id="spencer4pics"> <img src="images/rubens.jpg" width="150" height="100" onclick="zoom9()" class="enlargee"> </td>
+<td id="spencer4pics"> <img src="images/rubens2.webp" width="150" height="100" onclick="zoom10()" class="enlargee"> </td>
+</tr>
+<tr>
+<td id="spencer4pics"> <img src="images/rubens3.webp" width="150" height="100" onclick="zoom11()" class="enlargee"> </td>
+<td id="spencer4pics"> <img src="images/rubens4.webp" width="150" height="100" onclick="zoom12()" class="enlargee"> </td>
+</div>
+</tr>
+</table>
+<td id="spencerabouthotel"> 
+<p id="leftindent"> Ammenities: </p>
+<ul id="spencerlist">
+<li> Rooms/Suits </li>
+<li> 5 Restarants/Bars </li> 
+<li> Theatrical Dining Experiences </li> 
+<li> Living Wall </li>
+<li> Afternoon Tea Tradition </li>
+</td>
+<td id="spencerhoteltext"> Rubens at the Palace is an amazing place to stay as it overlooks Buckingham Palace - the entrance used by the Royal family.
+It has many great dining experiences and wine tastings. They also are partnered with Evan Evans which is a touring service right from your hotel.  </td>
+</tr>
+</table> 
+</div>
+
+</div>
+
+<div id="spencerfooter">
+Spencer Denmon
+</div>
+
+</body>
+</html>
